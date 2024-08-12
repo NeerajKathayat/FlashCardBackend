@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 const corsOptions = {
-    origin: 'http://localhost:5174', // Change this to the origin of your frontend
+    origin: 'https://flash-card-beige.vercel.app', // Change this to the origin of your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
 };
